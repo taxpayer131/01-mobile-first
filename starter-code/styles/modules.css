@@ -61,9 +61,18 @@
     display: none;
   }
 
-  .main-nav li {
+  .main-nav ul{
     display: inline-block;
     margin-right: 12%;
+  }
+
+  .main-nav:hover ul {
+    display: inline-block;
+  }
+
+  .main-nav ul li {
+    display: inline-block;
+    border-bottom: none;
   }
 }
 
